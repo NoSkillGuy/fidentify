@@ -17,6 +17,7 @@ def user_input():
     config.add_argument('-kip', '--known_images_path', help='Known images path', type=str, required=False)
     config.add_argument('-vp', '--videos_path', help='Video Path', type=str, required=False)
     config.add_argument('-dp', '--download_path', help='Downloads path', type=str, required=False)
+    config.add_argument('-v','--version', action='version', version="%(prog)s " + open('VERSION','r').read())
     config_file_check = config.parse_known_args()
     object_check = vars(config_file_check[0])
 
