@@ -240,7 +240,13 @@ In Development
 
 If this project gets 10 Stars, then i will work on the following 
 
-1. Implementing a command line utility for taking a snapshot so that one can easily add his/her picture before trying out `fidentify`
+1. Now it checks every frame of the video. should make this optional. Like how many frames you want to check per second. 
 2. Documentation 
 3. Examples
 4. Tests
+
+Use Cases
+=========
+
+1. Suspect Detection: Lets say there is a robbery, we got all the security camera videos, then we can easily check the videos if any known suspect is responsible for the robbery.
+2. Someone Missing: Someone went missing, Police can easily get all the security camera videos and then they will automatically know where all places the missing person is.
